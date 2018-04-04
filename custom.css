@@ -216,10 +216,6 @@ pre.c-mrkdwn__pre {
 }
 
 
-.p-message_pane {
-    border-left: 2px solid #3C3F44 !important;
-}
-
 
 .p-degraded_list__loading {
     position: absolute;
@@ -442,4 +438,27 @@ span.header_label.menu_mini, span.header_label {
 .p-message_pane__limited_history_foreword {
     background: #36393f;
     color: hsla(0,0%,100%,.7) !important;
+}
+
+
+[lang] body {
+    font-family: "Open Sans", NotoSansJP,Slack-Lato,appleLogo,sans-serif !important;
+    font-weight: 200 !important;
+    font-variant-ligatures: common-ligatures !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.c-scrollbar__track {
+    background-color: #36393f;
+}
+
+
+.p-message_pane {
+    border-left: 0px solid #3C3F44 !important;
+}
+
+
+#col_messages {
+	box-shadow: none !important;
 }
