@@ -258,7 +258,9 @@ div#col_messages, div#footer_msgs {
 
 
 
-
+a.c-message__sender_link {
+	color: #FFF !important;
+}
 
 
 
