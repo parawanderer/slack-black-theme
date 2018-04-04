@@ -419,7 +419,7 @@ span.header_label.menu_mini, span.header_label {
 }
 
 
-.member_details.display_flex.flex_direction_column.align_items_flex_start.cropped_preview, .cropped_preview_member_image {
+.member_details.display_flex.flex_direction_column.align_items_flex_start.cropped_preview, .cropped_preview_member_image, div#msg_input_message {
 	background: #36393f;
 }
 
@@ -432,3 +432,4 @@ span.header_label.menu_mini, span.header_label {
 .c-message--ephemeral {
     background: rgba(255,255,255,0.1);
 }
+
