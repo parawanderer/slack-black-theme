@@ -429,3 +429,6 @@ span.header_label.menu_mini, span.header_label {
 
 
 
+.c-message--ephemeral {
+    background: rgba(255,255,255,0.1);
+}
