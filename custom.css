@@ -393,8 +393,8 @@ ts-message .action_hover_container .btn_msg_action,
 
 .feature_name_tagging_client ts-message .mention, ts-message .mention,
 span.match {
-  border: 1px solid red !important;
-  background-color: red !important;
+  border: 1px solid RED !important;
+  background-color: var(--background-elevated) !important;
   font-weight: bold;
   padding: 2px 4px;
   margin: 2px;
@@ -1221,6 +1221,28 @@ pre.c-mrkdwn__pre {
 
 
 
+
+
+
+/* don't mess with the stuff above
+if you want a custom BG pic see below*/
+
+
+.c-virtual_list__scroll_container {
+	/*add URL of image you wanna use below*/
+	/* note a lot of my formatting relies on
+	overwriting light colours so i suggest
+	you actually use a dark image*/
+
+    background-image: url(http://mp-su.com/l/47a04429.jpg);
+	
+	/* EDIT THIS ^^^^^^^^^^ put it within the
+	( ) brackets. Direct image link only aka 
+	make sure it actually ends in .png .jpg 
+	etc.*/
+
+    background-size: contain;
+}
 
 
 
