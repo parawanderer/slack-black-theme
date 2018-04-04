@@ -433,3 +433,6 @@ span.header_label.menu_mini, span.header_label {
     background: rgba(255,255,255,0.1);
 }
 
+.team_list_scroller .c-member__title.c-member__title--large, .team_list_scroller .c-member__display-name.c-member__display-name--large {
+	    color: #2c2d30 !important;
+}
