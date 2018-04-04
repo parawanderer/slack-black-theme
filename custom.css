@@ -391,7 +391,7 @@ span.c-mrkdwn__broadcast.c-mrkdwn__broadcast--link.c-mrkdwn__broadcast--mention 
 }
 
 
-.menu_body, #menu_items_scroller, span.header_label.menu_mini {
+.supports_custom_scrollbar .team_menu.slack_menu .menu_content, .supports_custom_scrollbar #menu.notifications_menu .menu_content, .menu_body, #menu_items_scroller, span.header_label.menu_mini {
     background: #36393f;
 }
 .menu .section_header hr {
@@ -401,4 +401,13 @@ span.c-mrkdwn__broadcast.c-mrkdwn__broadcast--link.c-mrkdwn__broadcast--mention 
     margin-top: .6rem;
     margin-bottom: 0;
     border-color: #545454;
+}
+
+
+span.current_user_name.slack_menu_header_primary.overflow_ellipsis, span.slack_menu_header_primary.overflow_ellipsis {
+    color: hsla(0,0%,100%,.7) !important;
+}
+
+span.header_label.menu_mini {
+    background: #36393f !important;
 }
