@@ -453,3 +453,8 @@ span.header_label.menu_mini, span.header_label {
 span.c-message__body {
     font-size: 11pt;
 }
+
+
+[lang] body {
+    font-family: NotoSansJP,Slack-Lato,appleLogo,sans-serif;
+}
