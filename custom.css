@@ -465,16 +465,16 @@ span.c-message__body {
 }
 
 
-.c-message.c-message--light.c-message--last.c-message--custom_response, .c-message.c-message--light.c-message--adjacent.c-message--last.c-message--ephemeral {
+.c-message.c-message--light.c-message--custom_response, .c-message.c-message--light.c-message--ephemeral {
     background: #3C4048 !important;
 }
 
-.c-message.c-message--light.c-message--hover.c-message--last.c-message--custom_response, .c-message.c-message--light.c-message--hover.c-message--adjacent.c-message--last.c-message--ephemeral {
+.c-message.c-message--light.c-message--hover.c-message--custom_response, .c-message.c-message--light.c-message--hover.c-message--ephemeral {
     background: #444955 !important;
 }
 
-.c-message__body.c-message__body--automated {
-	color: #4A4E55 !important;
+span.c-message__body.c-message__body--automated {
+    color: #5A5A5A !important;
 }
 
 
