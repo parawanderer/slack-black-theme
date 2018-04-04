@@ -367,3 +367,11 @@ div#menu_member_dm_input {
 .c-member__display-name.c-member__display-name--large, .c-member__title.c-member__title--large {
     color: hsla(0,0%,80%,.7) !important;
 }
+
+
+span.c-mrkdwn__broadcast.c-mrkdwn__broadcast--link.c-mrkdwn__broadcast--mention {
+	color: #7289da !important;
+    background: rgba(250,166,26,.2)!important;
+    border-left: 4px solid #faa61a !important;
+    border-radius: 2px 0 0 2px !important;
+}
