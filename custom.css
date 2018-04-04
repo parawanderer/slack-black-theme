@@ -252,9 +252,12 @@ pre.c-mrkdwn__pre {
 }
 
 
-div#col_messages {
+div#col_messages, div#footer_msgs {
 	background-color: #36393f !important;
 }
+
+
+
 
 
 
