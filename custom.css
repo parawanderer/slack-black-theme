@@ -108,16 +108,15 @@ hr.c-message_list__day_divider__line {
 }
 
 .c-reaction:hover, .c-reaction:focus, .c-reaction_add:hover, .c-reaction_add:focus {
-    background: hsla(0,0%,100%,.09) !important;
     border-color: transparent !important;
 }
 
 .c-reaction_add__icon--bg {
-    color: grey !important;
+    color: white !important;
 }
 
 .c-reaction_add:hover .c-reaction_add__icon--bg, .c-reaction_add:focus .c-reaction_add__icon--bg {
-    color: #fff !important;
+    color: white !important;
 }
 
 
@@ -257,7 +256,6 @@ div#col_messages, div#footer_msgs {
 }
 
 
-
 a.c-message__sender_link {
 	color: #FFF !important;
 	font-weight: 600;
@@ -268,3 +266,7 @@ a.c-message__sender_link {
     padding-left: 10px;
 }
 
+
+.p-message_pane {
+	padding-left: 0px !important;
+}
