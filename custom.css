@@ -58,7 +58,7 @@ a.c-mrkdwn__member--mention, a.c-mrkdwn__member--mention:hover, a.c-mrkdwn__broa
 
 
 [lang] body {	
-font-family: "Whitney","Open Sans",Helvetica,Arial,sans-serif;
+font-family: NotoSansJP,Slack-Lato,appleLogo,sans-serif;
 }
 
 
@@ -132,6 +132,7 @@ hr.c-message_list__day_divider__line {
 
 button#channel_title {
     color: #fff !important;
+	font-weight:600;
 }
 
 .c-scrollbar__bar {
@@ -375,3 +376,17 @@ span.c-mrkdwn__broadcast.c-mrkdwn__broadcast--link.c-mrkdwn__broadcast--mention 
     border-left: 4px solid #faa61a !important;
     border-radius: 2px 0 0 2px !important;
 }
+
+
+#channel_header_info button {
+    color: hsla(0,0%,80%,.7) !important;
+}
+
+
+
+#special_formatting_text code {
+	    background: #2f3136 !important;
+    border: 2px solid #2f3136 !important;
+    color: hsla(0,0%,100%,.7) !important;
+}
+
