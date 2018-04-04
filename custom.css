@@ -106,17 +106,17 @@ hr.c-message_list__day_divider__line {
 }
 
 
-.c-reaction {
+.c-reaction, .c-reaction_add {
     background: hsla(0,0%,100%,.05) !important;
     border-color: transparent !important;
 }
 
-button.c-button-unstyled.c-reaction_add:hover  .c-reaction:hover, .c-reaction:focus, .c-reaction_add:hover, .c-reaction_add:focus {
+.c-reaction_add:hover  .c-reaction:hover, .c-reaction:focus, .c-reaction_add:hover, .c-reaction_add:focus {
     border-color: transparent !important;
 	background: hsla(0,0%,100%,.05) !important;
 }
 
-button.c-button-unstyled.c-reaction_add, .c-reaction_add__icon--bg, .c-reaction_add:hover .c-reaction_add__icon--bg, .c-reaction_add:focus .c-reaction_add__icon--bg {
+.c-reaction_add__icon--bg, .c-reaction_add:hover .c-reaction_add__icon--bg, .c-reaction_add:focus .c-reaction_add__icon--bg {
     color: grey !important;
 }
 
