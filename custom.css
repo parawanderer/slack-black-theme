@@ -53,12 +53,12 @@ h1, h2, h3, h4 {
 /* Channel selector */
 /*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
 /*nav.p-channel_sidebar {*/
-div.client_channels_list_container {
+/* div.client_channels_list_container {
    background-color: var(--background-elevated) !important;
    box-shadow: var(--background-elevated) 1px 1px 25px;
    color: var(--text);
    z-index: 1;
-}
+} */
 
 nav.p-channel_sidebar {
    background-color: var(--background-elevated);
