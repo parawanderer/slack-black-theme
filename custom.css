@@ -411,3 +411,7 @@ span.current_user_name.slack_menu_header_primary.overflow_ellipsis, span.slack_m
 span.header_label.menu_mini, span.header_label {
     background: #36393f !important;
 }
+
+.menu_member_header .member_details .member_current_status a, .menu_member_header .member_details .member_timezone_value a {
+	color: #0096cf;
+}
