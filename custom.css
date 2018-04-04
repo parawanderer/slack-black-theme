@@ -415,3 +415,15 @@ span.header_label.menu_mini, span.header_label {
 .menu_member_header .member_details .member_current_status a, .menu_member_header .member_details .member_timezone_value a {
 	color: #0096cf;
 }
+
+
+
+[lang] body {	
+	font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	font-family: NotoSansJP,Slack-Lato,appleLogo,sans-serif;
+    font-variant-ligatures: common-ligatures;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+
