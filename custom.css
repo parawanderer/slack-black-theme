@@ -419,11 +419,14 @@ span.header_label.menu_mini, span.header_label {
 
 
 [lang] body {	
-	font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-	font-family: NotoSansJP,Slack-Lato,appleLogo,sans-serif;
+	font-family: inherit;
     font-variant-ligatures: common-ligatures;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
 
+
+.member_details.display_flex.flex_direction_column.align_items_flex_start.cropped_preview, .cropped_preview_member_image {
+	background: #36393f;
+}
 
