@@ -262,22 +262,6 @@ pre.c-mrkdwn__pre {
 if you want a custom BG pic see below*/
 
 
-.c-virtual_list__scroll_container {
-	/*add URL of image you wanna use below*/
-	/* note a lot of my formatting relies on
-	overwriting light colours so i suggest
-	you actually use a dark image*/
-
-    background-image: url(http://mp-su.com/l/47a04429.jpg);
-	
-	/* EDIT THIS ^^^^^^^^^^ put it within the
-	( ) brackets. Direct image link only aka 
-	make sure it actually ends in .png .jpg 
-	etc.*/
-
-    background-size: contain;
-}
-
 
 
 
