@@ -44,6 +44,8 @@ a.c-mrkdwn__member--mention, a.c-mrkdwn__member--mention:hover, a.c-mrkdwn__broa
     border-radius: 2px 0 0 2px !important;
 }
 
+ 
+ 
 
 [lang] .c-message__body {
 	color: hsla(0,0%,100%,.7) !important;
@@ -284,10 +286,84 @@ a.c-message__sender_link {
     background-color: #6D6D6D !important;
 }
 
-.c-message_attachment {
+.c-message_attachment, .channel_header{
 	color: hsla(0,0%,100%,.7) !important;
 }
 
+
+
 button#im_title {
     color: hsla(0,0%,100%,.7) !important;
+}
+
+
+
+ a.c-mrkdwn__broadcast--mention, a.c-mrkdwn__broadcast--mention:hover {
+        color: #7289da !important;
+    background: rgba(250,166,26,.2)!important;
+    border-left: 4px solid #faa61a !important;
+    border-radius: 2px 0 0 2px !important;
+}
+
+
+.menu {
+    background: #36393E !important;
+	border-color: transparent;
+}
+
+
+p.member_current_status, p.member_timezone_value {
+    background: #36393E !important;
+    color: hsla(0,0%,100%,.7) !important;
+}
+
+.menu_member_header .member_details .member_current_status .member_current_status_label {
+	color: hsla(0,0%,100%,.7) !important;
+}
+
+.menu_member_header .member_details_divider {
+    border-color: #545454 !important;
+    margin: 0;
+}
+
+
+.menu ul li a {
+    color: hsla(0,0%,100%,.7) !important;
+}
+
+
+.menu ul li.highlighted a, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a, .menu:not(.keyboard_active) ul li:hover:not(.disabled) button {
+    background-color: rgba(255,255,255,0.1) !important;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+
+.menu_member_footer {
+    background: #36393E !important;
+    color: hsla(0,0%,100%,.7) !important;
+	border-top-color: transparent;
+}
+
+
+div#menu_member_dm_input {
+    background-color: hsla(0,0%,100%,.1) !important;
+	border-color: transparent;
+}
+
+#menu_member_dm_input p {
+	color: hsla(0,0%,100%,.7) !important;
+}
+
+
+.p-message_pane__unread_banner__banner, .p-message_pane__unread_banner__close.p-message_pane__unread_banner__close--detached {
+    background: #0096cf;
+}
+
+.p-message_pane__foreword__description {
+    color: hsla(0,0%,100%,.7) !important;
+}
+
+.c-member__display-name.c-member__display-name--large, .c-member__title.c-member__title--large {
+    color: hsla(0,0%,80%,.7) !important;
 }
