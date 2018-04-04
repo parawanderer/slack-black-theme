@@ -111,16 +111,12 @@ hr.c-message_list__day_divider__line {
     border-color: transparent !important;
 }
 
-.c-reaction:hover, .c-reaction:focus, .c-reaction_add:hover, .c-reaction_add:focus {
+button.c-button-unstyled.c-reaction_add:hover  .c-reaction:hover, .c-reaction:focus, .c-reaction_add:hover, .c-reaction_add:focus {
     border-color: transparent !important;
 	background: hsla(0,0%,100%,.05) !important;
 }
 
-.c-reaction_add__icon--bg {
-    color: grey !important;
-}
-
-.c-reaction_add:hover .c-reaction_add__icon--bg, .c-reaction_add:focus .c-reaction_add__icon--bg {
+button.c-button-unstyled.c-reaction_add, .c-reaction_add__icon--bg, .c-reaction_add:hover .c-reaction_add__icon--bg, .c-reaction_add:focus .c-reaction_add__icon--bg {
     color: grey !important;
 }
 
@@ -433,3 +429,6 @@ span.header_label.menu_mini, span.header_label {
 .ql-placeholder {
     color: white !important;
 }
+
+
+
