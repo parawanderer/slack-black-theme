@@ -111,14 +111,11 @@ hr.c-message_list__day_divider__line {
     border-color: transparent !important;
 }
 
-.c-reaction_add:hover  .c-reaction:hover, .c-reaction:focus, .c-reaction_add:hover, .c-reaction_add:focus {
+.c-reaction_add:hover  .c-reaction:hover, .c-reaction:focus, .c-reaction_add:hover, .c-reaction_add:focus, .c-reaction_add__icon--bg, .c-reaction_add:hover .c-reaction_add__icon--bg, .c-reaction_add:focus .c-reaction_add__icon--bg {
     border-color: transparent !important;
-	background: hsla(0,0%,100%,.05) !important;
+	background: hsla(0,0%,100%,.08) !important;
 }
 
-.c-reaction_add , .c-reaction_add__icon--bg, .c-reaction_add:hover .c-reaction_add__icon--bg, .c-reaction_add:focus .c-reaction_add__icon--bg {
-    color: grey !important;
-}
 
 
 .channel_header {
