@@ -22,12 +22,6 @@ what since this is a personal thing
 anyway*/
 
 
-a.c-mrkdwn__member--mention, a.c-mrkdwn__member--mention:hover, a.c-mrkdwn__broadcast--mention, a.c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .c-mrkdwn__highlight {
-        color: #7289da !important;
-    background: rgba(250,166,26,.2)!important;
-    border-left: 4px solid #faa61a !important;
-    border-radius: 2px 0 0 2px !important;
-}
 
 .c-mrkdwn__mention, .c-mrkdwn__mention:hover {
 	background: rgba(250,166,26,.2)!important;
@@ -42,6 +36,14 @@ a.c-mrkdwn__member--link, a.c-mrkdwn__subteam--link {
 	color: #7289da !important;
     background-color: rgba(115,139,215,.1) !important;
 }
+
+.c-mrkdwn__member--mention, .c-mrkdwn__member--mention:hover, .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .c-mrkdwn__highlight {
+        color: #7289da !important;
+    background: rgba(250,166,26,.2)!important;
+    border-left: 4px solid #faa61a !important;
+    border-radius: 2px 0 0 2px !important;
+}
+
 
 [lang] .c-message__body {
 	color: hsla(0,0%,100%,.7) !important;
