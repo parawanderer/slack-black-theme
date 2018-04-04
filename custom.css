@@ -433,3 +433,7 @@ span.header_label.menu_mini, span.header_label {
     background: rgba(255,255,255,0.1);
 }
 
+
+#team_list_container .c-member__display-name.c-member__display-name--large, #team_list_container .c-member__title.c-member__title--large {
+	color: #2c2d30;
+}
