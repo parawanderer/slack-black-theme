@@ -200,7 +200,7 @@ div#search_terms {
 }
 
 
-#msg_input p {
+#msg_input p, #search_terms p{
     color: hsla(0,0%,100%,.7);
 }
 
