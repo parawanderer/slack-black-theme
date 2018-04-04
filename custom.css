@@ -139,9 +139,9 @@ a, a:link, a:visited {
 }
 
 
-#channel_topic_text:hover, #edit_topic_inner:not(.unable_to_post):before {
-    background: #3E4248 !important;
-    border: #3E4248 !important;
+#channel_topic_text, #channel_topic_text:hover, #edit_topic_inner:not(.unable_to_post):before {
+    background: #36393f !important;
+    border: #36393f !important;
 	
 }
 
@@ -270,4 +270,18 @@ a.c-message__sender_link {
 
 .p-message_pane {
 	padding-left: 0px !important;
+}
+
+
+.channel_header {
+    padding-bottom: 4px !important;
+}
+
+
+.c-message_attachment__border {
+    background-color: #6D6D6D !important;
+}
+
+.c-message_attachment {
+	color: hsla(0,0%,100%,.7) !important;
 }
