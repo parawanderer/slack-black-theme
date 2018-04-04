@@ -408,6 +408,6 @@ span.current_user_name.slack_menu_header_primary.overflow_ellipsis, span.slack_m
     color: hsla(0,0%,100%,.7) !important;
 }
 
-span.header_label.menu_mini {
+span.header_label.menu_mini, span.header_label {
     background: #36393f !important;
 }
