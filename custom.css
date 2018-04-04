@@ -430,3 +430,6 @@ span.header_label.menu_mini, span.header_label {
 	background: #36393f;
 }
 
+.ql-placeholder {
+    color: white !important;
+}
