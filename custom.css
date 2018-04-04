@@ -287,3 +287,7 @@ a.c-message__sender_link {
 .c-message_attachment {
 	color: hsla(0,0%,100%,.7) !important;
 }
+
+button#im_title {
+    color: hsla(0,0%,100%,.7) !important;
+}
