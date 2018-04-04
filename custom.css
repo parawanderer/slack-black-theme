@@ -390,3 +390,15 @@ span.c-mrkdwn__broadcast.c-mrkdwn__broadcast--link.c-mrkdwn__broadcast--mention 
     color: hsla(0,0%,100%,.7) !important;
 }
 
+
+.menu_body, #menu_items_scroller, span.header_label.menu_mini {
+    background: #36393f;
+}
+.menu .section_header hr {
+    position: absolute;
+    left: 1rem;
+    right: 0;
+    margin-top: .6rem;
+    margin-bottom: 0;
+    border-color: #545454;
+}
