@@ -57,10 +57,6 @@ a.c-mrkdwn__member--mention, a.c-mrkdwn__member--mention:hover, a.c-mrkdwn__broa
 }
 
 
-[lang] body {	
-font-family: NotoSansJP,Slack-Lato,appleLogo,sans-serif;
-}
-
 
 span.c-message_list__unread_divider__label {
     color: rgba(240,71,71,.8) !important;
@@ -408,7 +404,6 @@ span.header_label.menu_mini, span.header_label {
 
 
 [lang] body {	
-	font-family: inherit;
     font-variant-ligatures: common-ligatures;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -440,12 +435,6 @@ span.header_label.menu_mini, span.header_label {
     color: hsla(0,0%,100%,.7) !important;
 }
 
-
-[lang] body {
-    font-variant-ligatures: common-ligatures !important;
-    -moz-osx-font-smoothing: grayscale !important;
-    -webkit-font-smoothing: antialiased !important;
-}
 
 .c-scrollbar__track {
     background-color: #36393f;
