@@ -109,11 +109,6 @@ hr.c-message_list__day_divider__line {
     border-color: transparent !important;
 }
 
-/*.c-reaction_add:hover  .c-reaction:hover, .c-reaction:focus, .c-reaction_add:hover, .c-reaction_add:focus, .c-reaction_add__icon--bg, .c-reaction_add:hover .c-reaction_add__icon--bg, .c-reaction_add:focus .c-reaction_add__icon--bg {
-    border-color: transparent !important;
-	background: hsla(0,0%,100%,.08) !important;
-}*/
-
 
 
 .channel_header {
@@ -348,6 +343,7 @@ div#menu_member_dm_input {
 
 .p-message_pane__unread_banner__banner, .p-message_pane__unread_banner__close.p-message_pane__unread_banner__close--detached {
     background: #0096cf;
+	top: -20px;
 }
 
 .p-message_pane__foreword__description {
@@ -515,6 +511,7 @@ span.c-message__reply_bar_view_thread {
 
 button.c-button-unstyled.c-reaction.c-reaction--reacted {
     background-color: rgba(94, 106, 151, 0.4) !important;
+	color: #5A94D7;
 }
 
 .c-message_attachment__footer a {
@@ -599,7 +596,7 @@ span#convo_tab_aria_label {
 }
 
 
-.c-message--highlight, .c-message--highlight_yellow_bg {
+.c-message--highlight, .c-message--highlight_yellow_bg, .c-message--highlight:hover, .c-message--highlight_yellow_bg:hover {
     background: rgba(138, 156, 222, 0.15) !important;
 }
 
@@ -702,4 +699,26 @@ span.broadcast.unify_broadcast {
 .p-emoji_picker__content {
     background: #f9f9f9;
     border-radius: 4pt;
+}
+
+
+div.c-scrollbar__track {
+    background: transparent !important;
+}
+
+
+.tab_complete_ui ul.type_cmds .cmdname {
+    color: hsla(0,0%,100%,.7);
+    font-weight: 400;
+}
+
+
+li.tab_complete_ui_group {
+    border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+}
+
+
+
+span.emoji-outer.emoji-sizer, img.emoji{
+    background-image: url(https://raw.githubusercontent.com/iamcal/emoji-data/master/sheets-indexed-256/sheet_twitter_64_indexed_256.png) !important;
 }
