@@ -425,10 +425,6 @@ span.header_label.menu_mini, span.header_label {
 }
 
 
-#team_list_container .c-member__display-name.c-member__display-name--large, #team_list_container .c-member__title.c-member__title--large {
-	color: #2c2d30 !important;
-}
-
 
 .p-message_pane__limited_history_foreword {
     background: #36393f;
@@ -511,7 +507,7 @@ span.c-message__reply_bar_view_thread {
 
 button.c-button-unstyled.c-reaction.c-reaction--reacted {
     background-color: rgba(94, 106, 151, 0.4) !important;
-	color: #5A94D7;
+	color: #5A94D7 !important;
 }
 
 .c-message_attachment__footer a {
@@ -721,4 +717,124 @@ li.tab_complete_ui_group {
 
 span.emoji-outer.emoji-sizer, img.emoji{
     background-image: url(https://raw.githubusercontent.com/iamcal/emoji-data/master/sheets-indexed-256/sheet_twitter_64_indexed_256.png) !important;
+}
+
+
+#team_list_container .c-member__display-name.c-member__display-name--large, #team_list_container .c-member__title.c-member__title--large {
+	color: hsla(0,0%,80%,.9) !important;
+}
+
+
+#team_list_container .c-member__display-name.c-member__display-name--large, #team_list_container .c-member__title.c-member__title--large {
+	color: hsla(0,0%,80%,.7) !important;
+}
+
+
+#client-ui .searchable_member_list .team_list_item:hover {
+    background: #292930;
+    background: linear-gradient(to right, #292930,#292930,#292930,#292930,#292930,#292930,#2B2D32);
+}
+
+
+.faux_input {
+    background-color: hsla(218,5%,47%,.3) !important;
+    border-color: transparent !important;
+    color: hsla(0,0%,80%,.7) !important;
+}
+
+.searchable_member_list_filter {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+
+.supports_custom_scrollbar:not(.slim_scrollbar) .flex_content_scroller::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.1);
+}
+
+.supports_custom_scrollbar:not(.slim_scrollbar) .flex_content_scroller::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+.supports_custom_scrollbar:not(.slim_scrollbar) .flex_content_scroller::-webkit-scrollbar-thumb, .supports_custom_scrollbar:not(.slim_scrollbar) .flex_content_scroller::-webkit-scrollbar-track {
+    color: transparent;
+}
+
+
+input.searchable_member_list_input.no_margin.small {
+    background-color: hsla(218,5%,47%,.3) !important;
+}
+
+
+input.searchable_member_list_input.no_margin.small {
+    color: hsla(0,0%,80%,.7);
+}
+
+.c-scrollbar__track {
+    background-color: transparent !important;
+}
+
+
+#client-ui #team_list_container .searchable_member_list_search {
+    border-bottom: transparent;
+}
+
+
+div#whats_new_tab {
+    background: white;
+}
+
+
+h2#whats_new_tab_header {
+    color: hsla(0,0%,80%,.7) !important;
+}
+
+
+h3.p-shortcuts_flexpane__title {
+    color: hsla(0,0%,80%,.8) !important;
+    font-weight: 600;
+}
+
+
+.p-shortcuts_flexpane__shortcut_title {
+    color: hsla(0,0%,80%,.7);
+}
+
+.p-shortcuts_flexpane__shortcut {
+    border-color: rgba(255,255,255,0.05);
+}
+
+
+.c-scrollbar--monkey .c-scrollbar__bar {
+    box-shadow: none;
+}
+
+
+.p-flexpane_header {
+    background: #2B2D32;
+}
+
+
+span#shortcuts_tab_aria_label {
+    color: hsla(0,0%,80%,.9);
+}
+
+
+span.p-shortcuts_flexpane__sub_heading.overflow_ellipsis {
+    color: hsla(0,0%,100%,.4);
+}
+
+.p-flexpane_header, .p-shortcuts_flexpane__shortcut:last-of-type  {
+    border-color: rgba(255,255,255,0.2);
+}
+
+
+h2#team_tab_aria_label {
+    color: hsla(0,0%,80%,.8) !important;
+}
+
+
+
+#client_body:not(.onboarding):before {
+    border-left: 5px solid #3C3F44;
 }
