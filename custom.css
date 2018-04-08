@@ -877,5 +877,5 @@ ts-thread .thread_messages {
 
 
 ts-thread {
-    background: #36393E;
+    background: #36393E !transparent;
 }
