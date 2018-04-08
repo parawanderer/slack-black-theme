@@ -876,6 +876,6 @@ ts-thread .thread_messages {
 }
 
 
-ts-thread, [lang] ts-thread {
+ts-thread, [lang] ts-thread, .msgs_holder .day_container ts-thread {
     background: #36393E !important;
 }
