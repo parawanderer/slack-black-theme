@@ -838,3 +838,39 @@ h2#team_tab_aria_label {
 #client_body:not(.onboarding):before {
     border-left: 5px solid #3C3F44;
 }
+
+
+div#threads_msgs_scroller_div {
+    background: #36393E;
+}
+
+.divider_label {
+    background: #36393E !important;
+}
+
+.divider_line {
+    border-color: rgba(255,255,255,0.1) !important;
+}
+
+#threads_msgs_scroller_div .threads_section:last-child .day_container:last-child ts-thread:last-child {
+    background: #36393E;
+}
+
+ts-thread .thread_header .thread_channel_name a {
+    color: hsla(0,0%,80%,.7);
+}
+
+[lang] .channel_title .channel_name {
+    color: hsla(0,0%,80%,.7);
+}
+
+
+#file_reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container label, #reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container label, .reply_input_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container label {
+    color: hsla(0,0%,80%,.7);
+}
+
+
+ts-thread .thread_messages {
+    background: #36393E;
+    border-color: transparent;
+}
