@@ -879,3 +879,8 @@ ts-thread .thread_messages {
 ts-thread, [lang] ts-thread, .msgs_holder .day_container ts-thread {
     background: #36393E !important;
 }
+
+
+.c-virtual_list__scroll_container {
+    background-color: #3C3F44 !important;
+}
