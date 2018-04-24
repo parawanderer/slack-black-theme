@@ -17,23 +17,23 @@ what since this is a personal thing
 anyway*/
 
 .c-mrkdwn__mention, .c-mrkdwn__mention:hover, a.c-member_slug.c-member_slug--link, a.c-member_slug.c-member_slug--link:hover {
-    background: rgba(250,166,26,.2);
-    padding-left: 2px ;
-    padding-right: 2px ;
-    border-left: none ;
-    color: hsla(0,0%,100%,.7);
+    background: rgba(250,166,26,.2) !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    border-left: none !important;
+    color: hsla(0,0%,100%,.7) !important;
 }
 
 a.c-mrkdwn__member--link, a.c-mrkdwn__subteam--link, a.c-member_slug.c-member_slug--link, a.c-member_slug.c-member_slug--link:hover {
-    color: #7289da ;
-    background-color: rgba(115,139,215,.1) ;
+    color: #7289da !important;
+    background-color: rgba(115,139,215,.1) !important;
 }
 
 a.c-mrkdwn__member--mention, a.c-mrkdwn__member--mention:hover, a.c-mrkdwn__broadcast--mention, a.c-mrkdwn__broadcast--mention:hover, a.c-mrkdwn__subteam--mention, a.c-mrkdwn__subteam--mention:hover, a.c-mrkdwn__highlight, a.c-member_slug.c-member_slug--link.c-member_slug--mention, a.c-member_slug.c-member_slug--link.c-member_slug--mention:hover {
-    color: #7289da ;
-    background: rgba(250,166,26,.2);
-    border-left: 4px solid #faa61a ;
-    border-radius: 2px 0 0 2px ;
+    color: #7289da !important;
+    background: rgba(250,166,26,.2) !important; 
+    border-left: 4px solid #faa61a !important;
+    border-radius: 2px 0 0 2px !important;
 }
 
 [lang] .c-message__body {
