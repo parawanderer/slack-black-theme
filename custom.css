@@ -724,9 +724,18 @@ ts-thread, [lang] ts-thread, .msgs_holder .day_container ts-thread {
 }
 
 [lang] .menu ul li a:not(.inline_menu_link) {
-    color: #ffffffba !important;
+    color: hsla(0,0%,80%,.8) !important;
 }
 
 #menu li.team_pricing_info {
-    color: #ffffff57;
+    color: hsla(0,0%,80%,.65) !important;
+}
+
+
+#fs_modal h1, #fs_modal h2, #fs_modal h3, #fs_modal h4, #fs_modal h5 {
+    color: #2c2d30 !important;
+}
+
+#fs_modal .contents_container .contents {
+    color: #353535 !important;
 }
