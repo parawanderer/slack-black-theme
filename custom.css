@@ -748,3 +748,7 @@ ts-thread, [lang] ts-thread, .msgs_holder .day_container ts-thread {
 #fs_modal .message_body {
     color: #2c2d30 !important;
 }
+
+#msg_input.texty_legacy .ql-placeholder {
+    color: white !important;
+}
