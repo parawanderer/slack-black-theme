@@ -739,3 +739,12 @@ ts-thread, [lang] ts-thread, .msgs_holder .day_container ts-thread {
 #fs_modal .contents_container .contents {
     color: #353535 !important;
 }
+
+
+[lang] #fs_modal.prefs_modal input.small, [lang] #fs_modal.prefs_modal label, [lang] #fs_modal.prefs_modal select.small, [lang] #fs_modal.prefs_modal textarea.small {
+    color: #7b7b7b !important;
+}
+
+#fs_modal .message_body {
+    color: #2c2d30 !important;
+}
