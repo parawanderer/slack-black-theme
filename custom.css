@@ -724,5 +724,9 @@ ts-thread, [lang] ts-thread, .msgs_holder .day_container ts-thread {
 }
 
 [lang] .menu ul li a:not(.inline_menu_link) {
-    color: white !important;
+    color: #ffffffba !important;
+}
+
+#menu li.team_pricing_info {
+    color: #ffffff57;
 }
