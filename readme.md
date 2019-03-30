@@ -1,4 +1,4 @@
-# Slack Black Theme (Discord Theme for Slack Edit)
+# Discord Dark Theme for Slack
 
 Original code/idea for Slack Styling overrules @ https://github.com/widget-/slack-black-theme
 
