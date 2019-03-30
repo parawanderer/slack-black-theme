@@ -1925,3 +1925,7 @@ span.emoji-outer.emoji-sizer, img.emoji {
 .im_browser_row span.c-unified_member__display-name.c-unified_member__display-name--medium {
     color: black !important;
 }
+
+div#im_browser .im_last_msg_time.float_right.greigh.small_left_margin {
+    color: grey !important;
+}
