@@ -1303,3 +1303,8 @@ div#convo_tab .ql-placeholder {
 div#chat_input_tab_ui_header {
     color: hsla(0, 0%, 100%, 0.53);
 }
+
+.c-message__reply_bar .c-avatar {
+    border-radius: 100%;
+    overflow: hidden;
+}
