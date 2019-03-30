@@ -1,6 +1,7 @@
-# Slack Black Theme
+# Discord-Like theme for Slack
 
-A darker, more contrasty, Slack theme.
+Original code/idea for Slack Styling overrules @ https://github.com/widget-/slack-black-theme
+This builds on that idea by overruling Slack Styles to resemble https://discordapp.com/
 
 # Preview
 
