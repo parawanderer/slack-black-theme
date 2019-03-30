@@ -1260,3 +1260,21 @@ div#convo_tab .ql-placeholder {
        background: rgba(242,199,68,.0);
     }
 }
+
+
+.p-threads_footer__input--legacy .p-message_input_file_button {
+    background: transparent;
+    border: transparent;
+}
+
+.p-threads_footer__input--legacy .p-message_input_file_button.p-message_input_file_button--active, .p-threads_footer__input--legacy .p-message_input_file_button:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.c-menu {
+    background: #36393f;
+}
+
+.c-menu_item__li div {
+    color: hsla(0,0%,80%,.8) !important;
+}
