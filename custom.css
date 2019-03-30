@@ -1029,3 +1029,51 @@ button#im_title {
 .texty_legacy .ql-editor.ql-blank~.ql-placeholder {
     color: white;
 }
+
+
+#message_edit_form .msg_mentions_button:hover, #msg_form .msg_mentions_button:hover, .current_status_container .msg_mentions_button:hover, .current_status_input_container .msg_mentions_button:hover, .inline_message_input_container .msg_mentions_button:hover, .share_channel_modal_contents .msg_mentions_button:hover {
+    color: white;
+}
+
+#primary_file_button {
+    border-right: 1px solid #5f5f5f !important;
+    margin: 5px;
+    width: 40px;
+    line-height: 33px;
+    opacity: 1 !important;
+}
+
+#primary_file_button i.ts_icon.ts_icon_plus_thick {
+    color: #484c52;
+    background: #818388;
+    border-radius: 100%;
+    display: inline-block;
+    height: 23px;
+    font-size: 10pt;
+    width: 23px;
+    transition: 0.1s ease;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+}
+
+#primary_file_button i.ts_icon.ts_icon_plus_thick:before {
+    font-size: 12pt;
+    line-height: 12pt;
+    position: relative;
+    top: -2px;
+    transition: 0.1s ease;
+}
+
+#msg_input+#primary_file_button:hover {background: transparent;}
+
+#msg_input+#primary_file_button:hover i.ts_icon.ts_icon_plus_thick {
+    background: white;
+    width: 25px;
+    height: 25px;
+}
+
+#msg_input+#primary_file_button:hover i.ts_icon.ts_icon_plus_thick:before {
+    top: -1px;
+}
