@@ -1216,3 +1216,8 @@ div#convo_tab .ql-placeholder {
     background-color: rgba(114,137,218,.7) !important;
     color: #fff !important;
 }
+
+.c-message__body a.c-member_slug.c-member_slug--link:hover {
+    background-color: rgba(114,137,218,.7) !important;
+    color: #fff !important;
+}
