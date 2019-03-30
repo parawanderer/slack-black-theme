@@ -1081,3 +1081,7 @@ button#im_title {
 .c-message .c-message__gutter img.c-avatar__image {
     border-radius: 100%;
 }
+
+#msg_input+#primary_file_button:hover {
+    background: transparent !important;
+}
