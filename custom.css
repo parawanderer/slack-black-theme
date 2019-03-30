@@ -1905,9 +1905,9 @@ input.searchable_member_list_input.no_margin.small {
 
 
 .p-message_pane__foreword__title {
-    color: white;
+    color: white !important;
 }
 
 .c-link--button {
-    color: #0096cf;
+    color: #0096cf !important;
 }
