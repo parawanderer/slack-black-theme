@@ -1763,3 +1763,13 @@ code.special_formatting a {
 .btn_outline:hover {
     background: #676767;
 }
+
+
+.p-archives_banner {
+    background: rgba(125, 139, 150, 0.9);
+    color: white;
+}
+
+.p-archives_banner__date_range {
+    font-weight: 600;
+}
