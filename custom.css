@@ -1105,3 +1105,15 @@ button#im_title {
     display: inline-block !important;
     overflow: hidden !important;
 }
+
+#client-ui.flex_pane_showing #col_flex {
+    border-left: 0px !important;
+    margin-top: 0px !important;
+}
+
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+    height: 0 !important;
+    background: #36393f !important;
+    overflow: hidden;
+    border-left: 0 !important;
+}
