@@ -1876,3 +1876,20 @@ input.searchable_member_list_input.no_margin.small {
 .p-help_modal__list .c-virtual_list__scroll_container {
     background-color: transparent;
 }
+
+
+.ReactModal__Overlay--after-open .c-dialog__content span.c-message_attachment__author_name {
+    color: #424242;
+}
+
+.ReactModal__Overlay--after-open .c-dialog__content .c-input_select {
+    background: transparent;
+}
+
+.ReactModal__Overlay--after-open .c-dialog__content .texty_legacy .ql-editor.ql-blank~.ql-placeholder {
+    color: black;
+}
+
+.ReactModal__Overlay--after-open .c-dialog__content .c-message_attachment__row {
+    color: #2d2d2d;
+}
