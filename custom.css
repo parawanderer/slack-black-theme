@@ -1917,3 +1917,11 @@ input.c-input_select__filter_input {
 span.emoji-outer.emoji-sizer, img.emoji {
     background-image: url(https://raw.githubusercontent.com/iamcal/emoji-data/master/sheets-indexed-256/sheet_twitter_64_indexed_256.png) !important;
 }
+
+.channel_modal_with_list .greigh {
+    color: grey !important;
+}
+
+.channel_modal_with_list span.c-unified_member__display-name.c-unified_member__display-name--medium {
+    color: black;
+}
