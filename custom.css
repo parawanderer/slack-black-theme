@@ -1902,3 +1902,12 @@ input.searchable_member_list_input.no_margin.small {
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider {
     background: #36393f;
 }
+
+
+.p-message_pane__foreword__title {
+    color: white;
+}
+
+.c-link--button {
+    color: #0096cf;
+}
