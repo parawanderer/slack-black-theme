@@ -1225,3 +1225,20 @@ div#convo_tab .ql-placeholder {
 .p-threads_footer__input--legacy .p-message_input_field p {
     color: hsla(0,0%,100%,.7) !important;
 }
+
+
+.p-threads_footer__input--legacy .p-message_input_field {
+    color: hsla(0,0%,100%,.7) !important;
+}
+
+.c-message_kit__labels__label {
+    color: rgba(255, 255, 255, 0.44);
+}
+
+.c-message_kit__labels--broadcast .c-message_kit__labels__icon {
+    color: rgba(189, 141, 0, 0.55);
+}
+
+.ql-editor.ql-blank {
+    color: white !important;
+}
