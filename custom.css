@@ -1186,3 +1186,20 @@ div#convo_tab .p-threads_footer__input .p-message_input_field {
 div#convo_tab .ql-placeholder {
     color: #b7b7b7;
 }
+
+
+.p-threads_footer__broadcast_label .c-label__text {
+    color: hsla(0, 0%, 62%, 0.7);
+}
+
+.p-threads_footer__info_tooltip {
+    color: #868686;
+}
+
+.c-button--disabled {
+    background: #636569;
+    color: white;
+    font-weight: 600;
+}
+
+.c-button--primary {background: #008e69;}
