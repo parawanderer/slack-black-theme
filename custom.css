@@ -1773,3 +1773,12 @@ code.special_formatting a {
 .p-archives_banner__date_range {
     font-weight: 600;
 }
+
+.p-shortcuts_flexpane__shortcut_hoverable .p-shortcuts_flexpane__shortcut_title {
+    color: #0096cf;
+}
+
+#canvases_toggle.active, #canvases_toggle.active:hover #details_toggle.active:hover, #details_toggle.active, #recent_mentions_toggle.active, #recent_mentions_toggle.active:hover, #sli_recap_toggle.active, #stars_toggle.active, #stars_toggle.active:hover {
+    background: transparent;
+    color: white;
+}
