@@ -1286,3 +1286,16 @@ div#convo_tab .ql-placeholder {
 .c-message__broadcast_preamble {
     font-size: 10.5pt;
 }
+
+.c-team__name--small, .c-unified_member__name--small, .c-usergroup__name--small {
+    color: hsla(0, 0%, 100%, 0.4) !important;
+}
+
+.c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle {
+    color: #b1b1b1;
+    font-weight: 500;
+}
+
+.c-team__with-icon--small .c-team__name--small, .c-unified_member__with-avatar--small .c-unified_member__name--small, .c-usergroup__with-icon--small .c-usergroup__name--small {
+    font-size: 10.5pt;
+}
