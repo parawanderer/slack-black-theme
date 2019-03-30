@@ -1308,3 +1308,10 @@ div#chat_input_tab_ui_header {
     border-radius: 100%;
     overflow: hidden;
 }
+
+.p-message_pane {
+    background: #36393f !important;
+    border-left: 0px !important;
+    margin-left: 0px !important;
+    border-color: #36393f !important;
+}
