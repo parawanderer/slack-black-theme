@@ -1278,3 +1278,11 @@ div#convo_tab .ql-placeholder {
 .c-menu_item__li div {
     color: hsla(0,0%,80%,.8) !important;
 }
+
+.c-message__broadcast_preamble_meta {
+    color: hsla(0, 0%, 100%, 0.32) !important;
+}
+
+.c-message__broadcast_preamble {
+    font-size: 10.5pt;
+}
