@@ -1203,3 +1203,16 @@ div#convo_tab .ql-placeholder {
 }
 
 .c-button--primary {background: #008e69;}
+
+
+.c-member_slug--mention, .c-member_slug--link,  .c-member_slug--mention:hover {
+    color: #7289da !important;
+    background-color: rgba(115,139,215,.1) !important;
+    border-radius: 0 !important;
+    transition: 0.05s ease !important;
+}
+
+.c-member_slug--mention:hover, .c-member_slug--link:hover {
+    background-color: rgba(114,137,218,.7) !important;
+    color: #fff !important;
+}
