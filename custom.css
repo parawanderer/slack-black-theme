@@ -1077,3 +1077,7 @@ button#im_title {
 #msg_input+#primary_file_button:hover i.ts_icon.ts_icon_plus_thick:before {
     top: -1px;
 }
+
+.c-message .c-message__gutter img.c-avatar__image {
+    border-radius: 100%;
+}
