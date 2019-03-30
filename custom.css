@@ -1918,3 +1918,11 @@ input.c-input_select__filter_input {
 .c-message_kit__file__meta {
     color: rgba(255, 255, 255, 0.22);
 }
+
+.c-channel_name {
+    color: white !important;
+}
+
+.p-message_pane__foreword__button {
+    color: #0096cf !important;
+}
