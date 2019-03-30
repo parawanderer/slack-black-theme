@@ -1085,3 +1085,13 @@ button#im_title {
 #msg_input+#primary_file_button:hover {
     background: transparent !important;
 }
+
+
+.c-menu_item__header {
+    color: white;
+    font-weight: 600;
+}
+
+.c-menu_separator__separator {
+    border-color: #464646;
+}
