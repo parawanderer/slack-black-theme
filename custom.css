@@ -1327,3 +1327,122 @@ div#chat_input_tab_ui_header {
 .c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper * {
     color: #c1c1c1 !important;
 }
+
+
+
+div#channel_header_info {
+    color: hsla(0, 0%, 100%, 0.48) !important;
+    font-weight: 600;
+}
+
+.messages_header .channel_header_info_item.channel_topic_container {
+    font-weight: 500;
+}
+
+#flex_contents .heading {
+    background-color: #35393e;
+    border-bottom: 1px solid #292a2b;
+}
+
+#flex_contents .heading_text {
+    color: white;
+}
+
+.close_flexpane {
+    color: hsla(0,0%,100%,.3);
+}
+
+.close_flexpane:hover {color: white !important;}
+
+.close_flexpane:hover .ts_icon_items:before {
+    font-size: 16pt;
+}
+
+.c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle {
+    font-weight: 600;
+}
+
+.c-unified_member__other-names--large {
+    font-weight: 600;
+    color: hsla(0, 0%, 100%, 0.34) !important;
+}
+
+.c-unified_member__display-name--large {
+    color: white;
+}
+
+.c-unified_member__title--large {
+    color: hsla(0, 0%, 100%, 0.49) !important;
+    font-size: 10.5pt;
+}
+
+#details_tab .conversation_details .member_info_timezone {
+    border-top: 1px solid #3d3f44;
+    font-weight: 600;
+}
+
+#details_tab .conversation_details .member_info_timezone .timezone {
+    color: #c7c7c7;
+    padding-left: 5px;
+}
+
+#details_tab .channel_page_section {
+    background: #35393e;
+    border: 2px solid #292a2b;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+#details_tab .channel_page_section .section_title {
+    color: hsla(0, 0%, 100%, 0.48) !important;
+}
+
+.greigh {
+    color: hsla(0, 0%, 100%, 0.48) !important;
+}
+
+p.greigh.empty_pinned_items .charcoal_grey {
+    color: #e8912d !important;
+}
+
+p.greigh.empty_pinned_items {}
+
+#client-ui .file_list_item.file_list_item--redesign {
+    border: 1px solid #45494e;
+}
+
+#client-ui .file_list_item.file_list_item--redesign .contents h4.title {
+    color: #cacaca;
+}
+
+.tab_container .file_list_item .contents .member {
+    color: hsla(0, 0%, 100%, 0.48) !important;
+}
+
+.tab_container .file_list_item .contents .service_link, .tab_container .file_list_item .contents .share_info, .tab_container .file_list_item .contents .time {
+    color: hsla(0, 0%, 100%, 0.22) !important;
+}
+
+#client-ui .file_list_item .monospace {
+    color: #c3c3c3;
+}
+
+#client-ui .file_list_item.file_list_item--redesign:hover {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.tab_container .file_list_item .actions .btn_icon {
+    background: #414549;
+}
+
+.tab_container .file_list_item .actions .btn_icon:before {
+    color: #b5b5b5;
+}
+
+.tab_container .file_list_item .actions:hover .btn_icon:before {
+    color: white;
+}
+
+.tab_container .file_list_item .actions .btn_icon:hover {
+    background: #5a5e63;
+}
