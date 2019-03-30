@@ -592,7 +592,8 @@ li.tab_complete_ui_group {
 }
 
 span.emoji-outer.emoji-sizer, img.emoji {
-    background-image: url(https://raw.githubusercontent.com/iamcal/emoji-data/master/sheets-indexed-256/sheet_twitter_64_indexed_256.png) !important;
+    /*background-image: url(https://raw.githubusercontent.com/iamcal/emoji-data/master/sheets-indexed-256/sheet_twitter_64_indexed_256.png) !important;
+*/
 }
 
 #team_list_container .c-member__display-name.c-member__display-name--large, #team_list_container .c-member__title.c-member__title--large {
