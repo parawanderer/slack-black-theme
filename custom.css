@@ -1929,3 +1929,7 @@ span.emoji-outer.emoji-sizer, img.emoji {
 div#im_browser .im_last_msg_time.float_right.greigh.small_left_margin {
     color: grey !important;
 }
+
+#im_browser.showing_recent .im_browser_row:not(.multiparty) .im_last_msg_time, #im_browser.showing_recent .im_browser_row:not(.multiparty) .im_unread_cnt {
+    color: grey !important;
+}
