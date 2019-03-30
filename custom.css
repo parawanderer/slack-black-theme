@@ -1095,3 +1095,9 @@ button#im_title {
 .c-menu_separator__separator {
     border-color: #464646;
 }
+
+.c-message .c-message__gutter a.c-link.c-message__avatar.c-avatar {
+    border-radius: 100% !important;
+    display: inline-block !important;
+    overflow: hidden !important;
+}
