@@ -1315,3 +1315,15 @@ div#chat_input_tab_ui_header {
     margin-left: 0px !important;
     border-color: #36393f !important;
 }
+
+.channel_header_icon {
+    color: grey;
+}
+
+.channel_header .blue_on_hover:hover {
+    color: white !important;
+}
+
+.c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper * {
+    color: #c1c1c1 !important;
+}
