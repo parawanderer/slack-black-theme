@@ -1242,3 +1242,7 @@ div#convo_tab .ql-placeholder {
 .ql-editor.ql-blank {
     color: white !important;
 }
+
+.p-message_input_field .ql-editor {
+    color: hsla(0,0%,100%,.7) !important;
+}
