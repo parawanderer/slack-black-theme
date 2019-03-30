@@ -1066,8 +1066,6 @@ button#im_title {
     transition: 0.1s ease;
 }
 
-#msg_input+#primary_file_button:hover {background: transparent;}
-
 #msg_input+#primary_file_button:hover i.ts_icon.ts_icon_plus_thick {
     background: white;
     width: 25px;
@@ -1084,6 +1082,12 @@ button#im_title {
 
 #msg_input+#primary_file_button:hover {
     background: transparent !important;
+    border-right: 1px solid #5f5f5f !important;
+}
+
+#msg_input+#primary_file_button.active {
+    background: transparent !important;
+    border-right: 1px solid #5f5f5f !important;
 }
 
 
