@@ -1897,3 +1897,8 @@ input.searchable_member_list_input.no_margin.small {
 .ReactModal__Overlay--after-open .c-dialog__content span.c-mrkdwn__mention {
     color: black;
 }
+
+
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider {
+    background: #36393f;
+}
