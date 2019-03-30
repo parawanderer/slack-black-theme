@@ -1026,3 +1026,6 @@ button#im_title {
 }
  
  
+.texty_legacy .ql-editor.ql-blank~.ql-placeholder {
+    color: white;
+}
