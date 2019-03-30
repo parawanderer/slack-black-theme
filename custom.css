@@ -1586,3 +1586,68 @@ p.greigh.empty_pinned_items {}
 .p-file_details__meta_container .active .c-file__action_button {
     color: white;
 }
+
+.channel_page_member_row:hover {
+    background: #2f3136;
+    border-color: #2f3136;
+}
+
+p.highlight_yellow_bg {
+    background: rgba(250, 166, 26, 0.17) !important;
+    color: white;
+    color: hsla(0,0%,100%,.7) !important;
+    box-shadow: none;
+}
+
+.greigh.mini.black.small_bottom_margin {}
+
+.channel_push_notifs.bottom_margin {
+    color: #656565;
+}
+
+button.edit_notif_prefs_btn.btn.btn_small.btn_outline {
+    background: #008e69;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+button.edit_notif_prefs_btn.btn.btn_small.btn_outline:hover {
+    background: #007758;
+}
+
+button#see_all_members {
+    background: #008e69;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+button#see_all_members:hover {
+    background: #007557;
+}
+
+.p-channel_insights__message ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display) {
+    background: transparent;
+    border: 1px solid #45494e;
+}
+
+.light_theme ts-message .message_content .message_sender {
+    color: #cacaca !important;
+}
+
+.p-channel_insights__message--truncate::before {
+    background: linear-gradient(180deg,transparent,#35393e 80%);
+}
+
+.p-channel_insights__date_heading span {
+    color: rgba(153,170,181,.5) !important;
+    background: #36393E !important;
+    font-weight: 400 !important;
+}
+
+.p-channel_insights__date_heading::before {
+    background-color: rgba(153, 170, 181, 0.39);
+}
+
+p.p-channel_insights__highlights_description {
+    color: hsla(0, 0%, 100%, 0.48) !important;
+}
