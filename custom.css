@@ -577,10 +577,6 @@ li.tab_complete_ui_group {
     border-bottom: 1px solid rgba(255,255,255,0.05) ;
 }
 
-span.emoji-outer.emoji-sizer, img.emoji {
-    background-image: url(https://raw.githubusercontent.com/iamcal/emoji-data/master/sheets-indexed-256/sheet_twitter_64_indexed_256.png) !important;
-}
-
 #team_list_container .c-member__display-name.c-member__display-name--large, #team_list_container .c-member__title.c-member__title--large {
     color: hsla(0,0%,80%,.7) ;
 }
@@ -1916,4 +1912,8 @@ input.c-input_select__filter_input {
 
 .p-message_pane__foreword__button {
     color: #0096cf !important;
+}
+
+span.emoji-outer.emoji-sizer, img.emoji {
+    background-image: url(https://raw.githubusercontent.com/iamcal/emoji-data/master/sheets-indexed-256/sheet_twitter_64_indexed_256.png) !important;
 }
