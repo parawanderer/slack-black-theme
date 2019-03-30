@@ -1782,3 +1782,97 @@ code.special_formatting a {
     background: transparent;
     color: white;
 }
+
+
+
+.star_item {
+    border-bottom: 1px solid #404040;
+}
+
+.tab_container .file_comment_item .actions .btn_icon, .tab_container .file_comment_item .actions .star_jump, .tab_container .file_list_item .actions .btn_icon, .tab_container .file_list_item .actions .star_jump, .tab_container .star_item .message .actions .btn_icon, .tab_container .star_item .message .actions .star_jump, .tab_container .star_item ts-message .actions .btn_icon, .tab_container .star_item ts-message .actions .star_jump {
+    background: transparent;
+}
+
+button.btn.btn_outline {}
+
+button.btn_unstyle.star_jump.msg_right_link.btn.btn_outline:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.file_star.btn_icon.btn.btn_outline:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.p-flexpane_header__children {
+    color: white;
+}
+
+.p-file_list__filters {background: #35393e;border-bottom: 1px solid #2c2f33;}
+
+.p-file_list {background: #36393f;}
+
+.c-pillow_file_container {
+    background: #35393e;
+}
+
+.p-file_list__file.c-pillow_file_container--full_width {
+    border-bottom: 1px solid #454a50;
+}
+
+.c-input_select {
+    background: #484c52;
+    border-color: #484c52;
+}
+
+.p-file_list__file_type_select .c-input_select__selected_value--placeholder {
+    color: darkgrey;
+}
+
+div#files_tab span.c-unified_member__display-name.c-unified_member__display-name--small {
+    color: #272727;
+}
+
+.p-file_list__file.c-pillow_file_container--full_width:hover {
+    background: #3d4146;
+    border-bottom: 1px solid #454a50;
+}
+
+.c-pillow_file__description {
+    color: #7b7b7b;
+}
+
+.c-pillow_file__title {
+    color: white;
+}
+
+.c-file__action_button, .c-file__action_button:link, .c-file__action_button:visited {background: transparent;color: grey;}
+
+.c-file__action_button:active, .c-file__action_button:focus, .c-file__action_button:hover {
+    color: white;
+}
+
+.p-file_list__empty {
+    color: grey;
+}
+
+#flex_contents .heading a {
+    color: grey;
+}
+
+#flex_contents .heading a:hover {
+    color: white;
+}
+
+#client-ui .searchable_member_list .team_list_item {
+    border-bottom: 1px solid #41444a;
+}
+
+.searchable_member_list_filter .faux_input {border-color: transparent;color: #d4d4d4;}
+
+input.searchable_member_list_input.no_margin.small {
+    background: #484c52;
+}
+
+.p-help_modal__list .c-virtual_list__scroll_container {
+    background-color: transparent;
+}
