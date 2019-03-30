@@ -71,6 +71,14 @@ The CSS within this repo will be updated and maintained for the latest version o
 
 You will have to redo this each time Slack updates. 
 
+# Sidebar Styling
+
+Sidebar styling remains available through the "Preferences" tab. You can apply any styling you want to the sidebar. 
+
+If you would like the same style as shown in the preview above, use these style values:
+
+```#2B2D32,#2B2D32,#484a4f,#ffffff,#3d3f45,#d9d9d9,#43B581,#EB4D5C```
+
 
 # License
 
