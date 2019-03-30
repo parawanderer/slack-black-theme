@@ -1246,3 +1246,17 @@ div#convo_tab .ql-placeholder {
 .p-message_input_field .ql-editor {
     color: hsla(0,0%,100%,.7) !important;
 }
+
+.c-message--fade_highlight {
+    animation: fade-background-highlight-e 4s ease-in-out;
+}
+
+@keyframes fade-background-highlight-e {
+    0% {
+       background: rgba(242,199,68,.1);
+    }
+
+    100% {
+       background: rgba(242,199,68,.0);
+    }
+}
