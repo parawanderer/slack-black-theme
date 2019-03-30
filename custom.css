@@ -1535,3 +1535,54 @@ p.greigh.empty_pinned_items {}
 .c-unified_member .presence.away, .c-unified_member__presence.away {
     opacity: 01;
 }
+
+
+.p-flexpane_header {
+    background-color: #35393e;
+    border-bottom: 1px solid #292a2b;
+}
+
+.p-file_details__header_back {
+    color: white;
+}
+
+.p-file_details__header_back:hover {
+    color: #cacaca;
+}
+
+.p-file_details__name {
+    color: white;
+}
+
+.p-file_details__share_channel {
+    color: white;
+}
+
+.p-file_details__share_divider span {
+    color: rgba(153,170,181,.5) !important;
+}
+
+.p-file_details__share_divider hr {
+    border-color: rgba(153, 170, 181, 0.24);
+}
+
+.p-file_details__user_meta {
+    color: hsla(0, 0%, 100%, 0.48) !important;
+}
+
+.p-file_details__user_link, .p-file_details__user_link:link {
+    color: #d0d0d0;
+    font-weight: 800;
+}
+
+.c-file__action_button {
+    background: #2f3136;
+}
+
+.p-file_details__meta_container .c-file__action_button:hover {
+    color: white;
+}
+
+.p-file_details__meta_container .active .c-file__action_button {
+    color: white;
+}
