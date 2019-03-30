@@ -1655,3 +1655,111 @@ p.p-channel_insights__highlights_description {
 #channel_prefs_dialog span#notifications_not_yet_allowed {
     color: #4a4a4a;
 }
+
+
+.c-message_attachment__pretext {
+    color: #777777;
+}
+
+.c-app_badge, .c-app_label {
+    background: #6879d0;
+    color: white;
+}
+
+.c-reaction__count {
+    color: darkgrey;
+}
+
+.presence {
+    color: white;
+}
+
+#flex_contents .subheading:not(:empty)#mentions_options {
+    background: #25282b;
+    color: #929292;
+    border-bottom: 1px solid #303335;
+}
+
+#menu.search_filter_menu li {
+    color: #bdbdbd;
+}
+
+.mention_day_container_div .day_divider:before {
+    background: transparent;
+    border-bottom: 1px solid rgba(153,170,181,.5) !important;
+}
+
+.day_divider .day_divider_label {
+    color: rgba(153,170,181,.5) !important;
+    background: #2f3136;
+}
+
+#member_mentions h3 {
+    color: grey;
+}
+
+#member_mentions h3 a {
+    color: darkgrey;
+}
+
+.comment .mention, .ql-editor .mention, ts-message .mention {
+    background: rgba(250,166,26,.2) !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    border-left: none !important;
+    color: hsla(0,0%,100%,.7) !important;
+}
+
+.rxn {
+    background: rgba(255, 255, 255, 0.07);
+}
+
+.rxn .emoji_rxn_count {
+    color: #989898;
+}
+
+.rxn:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.light_theme ts-message.first .message_content .bot_label, .light_theme ts-message.selected .message_content .bot_label {
+    background: #6879d0;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+.mention_rxn .mention_rxn_summary .app_preview_link, .mention_rxn .mention_rxn_summary .member_preview_link, .mention_rxn .mention_rxn_summary .mention_rxn_summary_members {
+    color: #cacaca !important;
+}
+
+
+span.message_body {
+    color: hsla(0,0%,100%,.7);
+}
+
+pre.special_formatting {
+    background: #2f3136 !important;
+    border-color: #282b30 !important;
+    border-width: 2px !important;
+    color: #839496 !important;
+}
+
+code.special_formatting {
+    background: #26282d !important;
+    border: 2px solid #26282d !important;
+    color: hsla(0,0%,100%,.7) !important;
+}
+
+code.special_formatting a {
+    color: #0096cf;
+}
+
+.btn_outline {
+    background: #484c52;
+    color: white !important;
+}
+
+.btn_outline:hover {
+    background: #676767;
+}
