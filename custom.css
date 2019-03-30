@@ -1918,7 +1918,7 @@ span.emoji-outer.emoji-sizer, img.emoji {
     background-image: url(https://raw.githubusercontent.com/iamcal/emoji-data/master/sheets-indexed-256/sheet_twitter_64_indexed_256.png) !important;
 }
 
-.im_browser_row .greigh {
+.contents_container div#im_list_container .list_items .im_browser_row .greigh {
     color: grey !important;
 }
 
