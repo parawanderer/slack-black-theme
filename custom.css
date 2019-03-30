@@ -11,11 +11,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-/* Custom CSS overrules -wndrr xoxo
-not going to bother writing that does
-what since this is a personal thing 
-anyway*/
-
 .c-message__body .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-message__body a.c-member_slug.c-member_slug--link, .c-message__body a.c-member_slug.c-member_slug--link:hover {
     background: rgba(250,166,26,.2) !important;
     padding-left: 2px !important;
@@ -1918,4 +1913,8 @@ input.searchable_member_list_input.no_margin.small {
 
 input.c-input_select__filter_input {
     background: transparent;
+}
+
+.c-message_kit__file__meta {
+    color: rgba(255, 255, 255, 0.22);
 }
