@@ -1450,3 +1450,88 @@ p.greigh.empty_pinned_items {}
 .active .tab_container .file_list_item {
     background: transparent;
 }
+
+
+
+
+#details_tab .channel_page_section .disclosure_triangle {
+    color: hsla(0, 0%, 100%, 0.48);
+}
+
+
+#details_tab .channel_page_section .section_header:hover .disclosure_triangle {
+    color: white;
+}
+
+.pinned_item {
+    border: 1px solid #45494e;
+}
+
+.pinned_item .pin_member_name a, .pinned_item .pin_member_title {
+    color: #b3b3b3 !important;
+}
+
+.pinned_item .remove_pin:hover {
+    color: white;
+}
+
+#details_tab .view_all_files_link {
+    color: #0096cf;
+}
+
+.btn_link {
+    color: #0096cf;
+}
+
+.btn_link:hover {
+    color: #0096cf;
+}
+
+.pinned_item .pinned_message_text.hide_scroll {color: hsla(0, 0%, 100%, 0.51) !important;}
+
+.pinned_item .pin_metadata {
+    color: hsla(0,0%,100%,.2);
+    font-size: 9.5pt;
+}
+
+.pinned_item .pinned_message_text .pin_truncate_fade {
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#35393e),color-stop(1,rgba(255,255,255,0)));
+    background: -moz-linear-gradient(center bottom,#fff 0,rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(bottom,#fff,rgba(255,255,255,0));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255, 255, 255, 0)', endColorstr='#ffffff', GradientType=0);
+}
+
+.pinned_item .pin_file_title {
+    color: #b3b3b3 !important;
+}
+
+#details_tab .feature_sli_channel_insights .channel_created_section .creator_link, #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text {
+    color: hsla(0,0%,100%,.7) !important;
+}
+
+.channel_page_about.channel_page_section.feature_sli_channel_insights.expanded {}
+
+.channel_page_about.channel_page_section.feature_sli_channel_insights.expanded .greigh {
+    color: hsl(0, 0%, 100%) !important;
+}
+
+.p-channel_insights__drawer_title {
+    color: hsla(0, 0%, 100%, 0.31) !important;
+}
+
+.p-channel_insights .c-unified_member__title {
+    font-size: 10pt;
+    color: hsla(0, 0%, 100%, 0.48) !important;
+}
+
+.c-unified_member__name--medium .p-channel_insights .c-unified_member__display-name {
+    color: hsla(0, 0%, 100%, 0.84) !important;
+}
+
+.c-unified_member__name--medium span.c-unified_member__display-name.c-unified_member__display-name--medium {
+    color: white;
+}
+
+.c-unified_member .presence.away, .c-unified_member__presence.away {
+    opacity: 01;
+}
