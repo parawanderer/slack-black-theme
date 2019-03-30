@@ -1651,3 +1651,7 @@ button#see_all_members:hover {
 p.p-channel_insights__highlights_description {
     color: hsla(0, 0%, 100%, 0.48) !important;
 }
+
+#channel_prefs_dialog span#notifications_not_yet_allowed {
+    color: #4a4a4a;
+}
