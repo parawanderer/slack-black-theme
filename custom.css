@@ -1915,3 +1915,7 @@ input.searchable_member_list_input.no_margin.small {
 .menu_member_header .member_details .member_current_status, .menu_member_header .member_details .member_timezone_value {
     color: #a0a0a0;
 }
+
+input.c-input_select__filter_input {
+    background: transparent;
+}
