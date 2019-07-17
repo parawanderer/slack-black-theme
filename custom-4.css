@@ -2102,7 +2102,6 @@ i.c-icon.c-icon--times {
     color: white;
 }
 
-body {}
 
 body {
     color: hsla(0,0%,100%,.5);
@@ -2135,5 +2134,15 @@ body {
 
 .p-message_pane_input__disabled {
     background: #36393f;
+    color: hsla(0,0%,100%,.5);
+}
+
+
+.p-threads_footer__input .p-message_input_field {
+    background: #484c52;
+    border: 0;
+}
+
+.p-threads_footer__input .p-message_input_field.focus~.p-message_input_file_button:not(:hover) {
     color: hsla(0,0%,100%,.5);
 }
