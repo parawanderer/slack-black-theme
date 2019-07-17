@@ -1,4 +1,3 @@
-
 /*
 CSS by Shane B.
 */
@@ -1933,4 +1932,203 @@ div#im_browser .im_last_msg_time.float_right.greigh.small_left_margin {
 
 #im_browser.showing_recent .im_browser_row:not(.multiparty) .im_last_msg_time, #im_browser.showing_recent .im_browser_row:not(.multiparty) .im_unread_cnt {
     color: grey !important;
+}
+
+/* Updates 4.x.x+ */
+
+.p-workspace__message_pane_input {
+    background: #36393f;
+}
+
+
+footer.p-workspace__primary_view_footer {
+    background: #36393f;
+}
+
+.p-workspace__input .p-message_input_field {
+    color: hsla(0,0%,100%,.7);
+    background-color: rgba(114,118,125,.3);
+    border: 0;
+}
+
+.p-workspace__input .p-message_input_field .ql-editor::placeholder {
+}
+
+.c-texty_input .ql-placeholder {
+    color: rgba(255, 255, 255, 0.42);
+}
+
+.p-workspace__input .p-message_input_file_button {
+    color: #484c52;
+}
+
+.p-workspace__input .p-message_input_file_button.p-message_input_file_button--active, .p-workspace__input .p-message_input_file_button:hover {
+    background: rgb(255, 255, 255);
+    color: #484c52;
+}
+
+.p-workspace__input .p-message_input_file_button {
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.23921568627450981);
+}
+
+.ql-editor.ql-blank p {
+}
+
+.p-workspace__input .p-message_input_field.focus~.p-message_input_file_button:not(:hover) {color: #484c52;}
+
+.p-classic_nav__channel_header {
+    background: #36393f;
+    color: #b9bbbe;
+}
+
+.p-classic_nav {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 1.5px 0 rgba(0,0,0,.05), 0 2px 0 rgba(0,0,0,.05);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 1.5px 0 rgba(0,0,0,.05), 0 2px 0 rgba(0,0,0,.05);
+}
+
+.p-classic_nav__right_header {
+    background: #36393f;
+    color: grey;
+}
+
+.p-classic_nav__model__title__name__button {
+    color: white;
+}
+
+.p-classic_nav__model__title__info {
+    color: #b9bbbe;
+    font-weight: 600;
+}
+
+.p-classic_nav__model__title__info__topic--focus-within .p-classic_nav__model__title__info__topic__text:before, .p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before {
+    background: #484c52;
+}
+
+.p-classic_nav__model__title__info__topic__edit {
+    color: #0096cf;
+}
+
+.p-classic_nav__model__title__info__members.c-button--focus-visible:focus, .p-classic_nav__model__title__info__members:hover, .p-classic_nav__model__title__info__pins.c-button--focus-visible:focus, .p-classic_nav__model__title__info__pins:hover, .p-classic_nav__model__title__info__shared_teams.c-button--focus-visible:focus, .p-classic_nav__model__title__info__shared_teams:hover {
+    color: #0096cf;
+}
+
+.p-classic_nav__model__button {
+    color: #a5a5a5;
+}
+
+.p-classic_nav__model__button:hover {
+    color: white;
+}
+
+.p-classic_nav__right__search {
+    background: #232323;
+    color: white;
+}
+
+.p-classic_nav__right__search__icon {
+    color: grey;
+}
+
+.p-classic_nav__right__search__placeholder {
+    color: grey;
+}
+
+.p-classic_nav__right__search:hover .p-classic_nav__right__search__placeholder {
+    color: grey;
+}
+
+.p-classic_nav__right__search:hover .p-classic_nav__right__search__icon {
+    color: grey;
+}
+
+.p-classic_nav__right__search:hover {
+    background: #292929;
+}
+
+.p-classic_nav__right__button {
+    color: #b3b3b3;
+}
+
+.p-classic_nav__right__button--flexpanes:hover {
+    color: #0096cf;
+}
+
+.p-member_profile_card {
+    background-color: #2f3136;
+    color: hsla(0,0%,100%,.8);
+}
+
+button.c-link--button.p-member_profile_name__link {
+    color: white !important;
+}
+
+.p-member_profile_field {
+    color: hsla(0,0%,100%,.8);
+}
+
+.p-member_profile_field__label {
+    color: hsla(0,0%,100%,.8);
+}
+
+.c-button--outline {
+    background: #232323;
+    color: hsla(0,0%,100%,.5);
+}
+
+.p-flexpane_header__primary {
+    color: white;
+}
+
+.c-icon {
+}
+
+i.c-icon.c-icon--chevron-medium-left {
+    color: hsla(0,0%,100%,.5);
+}
+
+i.c-icon.c-icon--times {
+}
+
+.c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link {
+    color: hsla(0,0%,100%,.5);
+}
+
+.p-workspace__secondary_view {
+    background-color: #2f3136;
+}
+
+.c-button--outline:hover {
+    color: white;
+}
+
+body {}
+
+body {
+    color: hsla(0,0%,100%,.5);
+}
+
+.p-member_directory__member_row {
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.c-base_entity__metadata, .c-base_entity__subtext {
+    color: hsla(0,0%,100%,.5);
+}
+
+.c-member_name {
+    color: hsla(0,0%,100%,.8);
+}
+
+.p-member_directory__member_row:focus, .p-member_directory__member_row:focus-within, .p-member_directory__member_row:hover {
+    background-color: #2f3136;
+}
+
+.c-texty_autocomplete {
+    background-color: #2f3136;
+}
+
+.c-texty_input.focus .c-texty_input__button {
+    color: hsla(0,0%,100%,.4);
 }
