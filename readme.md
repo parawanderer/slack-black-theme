@@ -41,7 +41,7 @@ Find your Slack's application directory.
 Open up the most recent version (e.g. `app-3.3.8`) then open
 `resources\app.asar.unpacked\src\static\ssb-interop.js`
 
-At the very bottom, add [all of this Javascript](https://github.com/parawanderer/slack-black-theme/blob/master/loader.js). 
+At the very bottom, add [all of this Javascript](https://github.com/parawanderer/slack-black-theme/blob/master/old/loader.js). 
 
 The CSS pre 4.0.0 will no longer be updated. If you for whatever reason manage to and insist on using older versions of slack, you'll have to do with the old CSS.
 
