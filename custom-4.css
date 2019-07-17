@@ -2132,3 +2132,8 @@ body {
 .c-texty_input.focus .c-texty_input__button {
     color: hsla(0,0%,100%,.4);
 }
+
+.p-message_pane_input__disabled {
+    background: #36393f;
+    color: hsla(0,0%,100%,.5);
+}
