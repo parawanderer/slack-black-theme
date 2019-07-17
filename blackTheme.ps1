@@ -3,7 +3,7 @@
 #Check Prerequisites
 [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
 
-if ((Test-Path $env:LOCALAPPDATA\slack\app-4*))
+if (!(Test-Path $env:LOCALAPPDATA\slack\app-4*))
 {   
     Write-Host "Slack v4 could not be found at %LocalAppdata%..." -ForegroundColor red
     if (!(Test-Path -Path "C:\Program Files\WindowsApps\slack\app-4*")) 
