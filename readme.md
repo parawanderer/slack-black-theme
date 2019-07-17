@@ -4,8 +4,6 @@ Original code/idea for Slack Styling overrules @ https://github.com/widget-/slac
 
 This builds on that idea by overruling Slack Styles to resemble https://discordapp.com/
 
-This also updates Slack's default emojis to Twitter's Emojis (credit https://github.com/iamcal/emoji-data)
-
 # Preview
 
 ![Screenshot](https://raw.githubusercontent.com/parawanderer/slack-black-theme/master/example1.png)
