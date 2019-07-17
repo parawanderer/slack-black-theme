@@ -6,7 +6,7 @@
 if (!(Test-Path $env:LOCALAPPDATA\slack\app-4*))
 {   
     Write-Host "Slack v4 could not be found at %LocalAppdata%..." -ForegroundColor red
-    if (!(Test-Path -Path "C:\Program Files\WindowsApps\slack\app-4*")) 
+    if (!(Test-Path -Path "C:\Program Files\WindowsApps\*.Slack_4*\app")) 
     {   
         #For UWP Slack
         Write-Host "Slack v4 could not be found at C:\Program Files\WindowsApps..." -ForegroundColor red
@@ -16,17 +16,22 @@ if (!(Test-Path $env:LOCALAPPDATA\slack\app-4*))
     } else {
         Write-Host "Slack v4 found at C:\Program Files\WindowsApps..."
         $SlackPath = "C:\Program Files\WindowsApps"
-    }
+
+        #Get directories
+        $AppDirectory = Get-ChildItem -Directory -Path $SlackPath -Filter "*.Slack_4*" | Sort-Object LastAccessTime -Descending | Select-Object -First 1 -ExpandProperty Name
+        $SlackDirectory = $SlackPath + $AppDirectory + "\app\resources"
+   }
 }
 else {
     Write-Host "Slack v4 found at %LocalAppdata%..."
     $SlackPath = $env:LOCALAPPDATA
+
+   #Get directories
+   $AppDirectory = Get-ChildItem -Directory -Path $SlackPath\slack -Filter "app-4*" | Sort-Object LastAccessTime -Descending | Select-Object -First 1 -ExpandProperty Name
+   $SlackDirectory = $SlackPath + "\slack\" + $AppDirectory + "\resources"
 }
 
-
-#Get directories
-$AppDirectory = Get-ChildItem -Directory -Path $SlackPath\slack -Filter "app-4*" | Sort-Object LastAccessTime -Descending | Select-Object -First 1 -ExpandProperty Name
-$SlackDirectory = $SlackPath + "\slack\" + $AppDirectory + "\resources"
+#Get 7zip directory
 $7zipInstall = Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\7-Zip |  Select-Object -ExpandProperty InstallLocation
 
 #Check for 7z install
@@ -89,11 +94,11 @@ try {
          });
       });
    });
-   "
+   " -ErrorAction Stop
 
-   $blackcss = Get-Content $SlackDirectoryOuter\blacktheme.txt
-   Add-Content $SlackDirectory\app\dist\ssb-interop.bundle.js -Value $blackcss
-   Remove-Item $SlackDirectoryOuter\blacktheme.txt
+   $blackcss = Get-Content $SlackDirectoryOuter\blacktheme.txt -ErrorAction Stop
+   Add-Content $SlackDirectory\app\dist\ssb-interop.bundle.js -Value $blackcss -ErrorAction Stop
+   Remove-Item $SlackDirectoryOuter\blacktheme.txt -ErrorAction Stop
 
    #Rename old archive
    Move-Item $SlackDirectory\app.asar $SlackDirectory\app.asar.original
