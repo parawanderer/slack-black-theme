@@ -12,6 +12,25 @@ This also updates Slack's default emojis to Twitter's Emojis (credit https://git
 
 # Installing into Slack
 
+### v4.0.0+ (Windows only)
+
+Credit https://github.com/tarantulae/slack-black-theme-4.0PS for this solution. 
+
+1. Download and install [7-Zip](https://www.7-zip.org/) and the [Asar plugin for 7-Zip](http://www.tc4shell.com/en/7zip/asar/), install Asar plugin following steps provided on official page.
+
+1. Download this repo as a zip (green "Clone or Download" button, top of page), extract and place `blackTheme.ps1` in a convenient location.
+
+1. Run cmd with command `PowerShell.exe -ExecutionPolicy Bypass -File Your/Path/To/blackTheme.ps1` (one-time bypass on execution policy)
+
+That's it. The script will do everything that is needed to install this theme. Once it pops an alert stating it has been installed successfully, you can restart Slack and see how well it works. 
+
+You will have to run this again each time Slack updates.
+
+The CSS within this repo will be updated and maintained for the latest version of Slack for as long as I am interested in using it personally.
+
+
+### Before v4.0.0
+
 Find your Slack's application directory.
 
 * Windows: `%homepath%\AppData\Local\slack\`
@@ -64,12 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
    });
 });
 ``` 
-That's it! Restart Slack and see how well it works.
-
-
-The CSS within this repo will be updated and maintained for the latest version of Slack for as long as I am interested in using it personally.
-
-You will have to redo this each time Slack updates. 
+The CSS pre 4.0.0 will no longer be updated. If you for whatever reason manage to and insist on using older versions of slack, you'll have to do with the old CSS.
 
 # Sidebar Styling
 
