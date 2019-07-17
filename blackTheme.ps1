@@ -3,14 +3,30 @@
 #Check Prerequisites
 [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
 
-if (!(Test-Path $env:LOCALAPPDATA\slack\app-4*))
-{
-   [System.Windows.Forms.MessageBox]::Show('Slack version 4 not installed','Error: Exiting...')
-    exit
+if ((Test-Path $env:LOCALAPPDATA\slack\app-4*))
+{   
+    Write-Host "Slack v4 could not be found at %LocalAppdata%..." -ForegroundColor red
+    if (!(Test-Path -Path "C:\Program Files\WindowsApps\slack\app-4*")) 
+    {   
+        #For UWP Slack
+        Write-Host "Slack v4 could not be found at C:\Program Files\WindowsApps..." -ForegroundColor red
+        [System.Windows.Forms.MessageBox]::Show('Slack version 4 not installed','Error: Exiting...')
+        exit   
+
+    } else {
+        Write-Host "Slack v4 found at C:\Program Files\WindowsApps..."
+        $SlackPath = "C:\Program Files\WindowsApps"
+    }
 }
+else {
+    Write-Host "Slack v4 found at %LocalAppdata%..."
+    $SlackPath = $env:LOCALAPPDATA
+}
+
+
 #Get directories
-$AppDirectory = Get-ChildItem -Directory -Path $env:LOCALAPPDATA\slack -Filter "app-4*" | Sort-Object LastAccessTime -Descending | Select-Object -First 1 -ExpandProperty Name
-$SlackDirectory = $env:LOCALAPPDATA + "\slack\" + $AppDirectory + "\resources"
+$AppDirectory = Get-ChildItem -Directory -Path $SlackPath\slack -Filter "app-4*" | Sort-Object LastAccessTime -Descending | Select-Object -First 1 -ExpandProperty Name
+$SlackDirectory = $SlackPath + "\slack\" + $AppDirectory + "\resources"
 $7zipInstall = Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\7-Zip |  Select-Object -ExpandProperty InstallLocation
 
 #Check for 7z install
@@ -33,7 +49,7 @@ Get-Process slack -ErrorAction SilentlyContinue | Stop-Process -PassThru
 
 try {
    #Add css to ssb-interop
-   $SlackDirectoryOuter = $env:LOCALAPPDATA + "\slack"
+   $SlackDirectoryOuter = $SlackPath + "\slack"
    Add-Content $SlackDirectoryOuter\blacktheme.txt -Value "
    // First make sure the wrapper app is loaded
    document.addEventListener('DOMContentLoaded', function() {
