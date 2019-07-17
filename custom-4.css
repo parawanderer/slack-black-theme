@@ -1914,10 +1914,6 @@ input.c-input_select__filter_input {
     color: #0096cf !important;
 }
 
-span.emoji-outer.emoji-sizer, img.emoji {
-    background-image: url(https://raw.githubusercontent.com/parawanderer/slack-black-theme/master/sheet_twitter_64.png) !important;
-}
-
 .contents_container div#im_list_container .list_items .im_browser_row .greigh {
     color: grey !important;
 }
