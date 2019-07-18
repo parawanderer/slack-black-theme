@@ -54,7 +54,7 @@ Get-Process slack -ErrorAction SilentlyContinue | Stop-Process -PassThru
 
 try {
    #Add css to ssb-interop
-   $SlackDirectoryOuter = $SlackPath + "\slack"
+   $SlackDirectoryOuter = $SlackDirectory
    Add-Content $SlackDirectoryOuter\blacktheme.txt -Value "
    // First make sure the wrapper app is loaded
    document.addEventListener('DOMContentLoaded', function() {
