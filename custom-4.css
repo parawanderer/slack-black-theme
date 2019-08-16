@@ -2142,3 +2142,7 @@ body {
 .p-threads_footer__input .p-message_input_field.focus~.p-message_input_file_button:not(:hover) {
     color: hsla(0,0%,100%,.5);
 }
+
+footer.workspace__primary_view_footer {
+    background: #36393f;
+}
