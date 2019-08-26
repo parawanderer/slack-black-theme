@@ -2146,3 +2146,7 @@ body {
 footer.workspace__primary_view_footer {
     background: #36393f;
 }
+
+.p-context_bar {
+    background: #36393f;
+}
