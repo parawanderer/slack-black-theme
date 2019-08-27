@@ -2149,4 +2149,5 @@ footer.workspace__primary_view_footer {
 
 .p-context_bar {
     background: #36393f;
+    color: rgba(255, 255, 255, 0.25);
 }
