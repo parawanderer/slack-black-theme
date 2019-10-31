@@ -2155,3 +2155,10 @@ footer.workspace__primary_view_footer {
 .c-texty_input.c-texty_input--sticky_composer.focus .ql-buttons, .c-texty_input.c-texty_input--sticky_composer.focus .ql-composer-sticky {
     background: transparent !important;
 }
+
+
+.ql-composer-sticky {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
