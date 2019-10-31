@@ -2151,3 +2151,7 @@ footer.workspace__primary_view_footer {
     background: #36393f;
     color: rgba(255, 255, 255, 0.25);
 }
+
+.c-texty_input.c-texty_input--sticky_composer.focus .ql-buttons, .c-texty_input.c-texty_input--sticky_composer.focus .ql-composer-sticky {
+    background: transparent;
+}
