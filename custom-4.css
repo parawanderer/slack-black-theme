@@ -2162,3 +2162,10 @@ footer.workspace__primary_view_footer {
     background-color: transparent !important;
     background-image: none !important;
 }
+
+.p-rich_text_section {
+    font-size: 10.5pt;
+    font-weight: 400;
+    color: hsla(0,0%,100%,.7) !important;
+    line-height: 1.46668;
+}
