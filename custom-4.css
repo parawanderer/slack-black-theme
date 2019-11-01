@@ -2169,3 +2169,12 @@ footer.workspace__primary_view_footer {
     color: hsla(0,0%,100%,.7) !important;
     line-height: 1.46668 !important;
 }
+
+
+.c-message__message_blocks--rich_text, .c-message__content {
+    font-size: 10.5pt !important;
+    font-weight: 400 !important;
+    color: hsla(0,0%,100%,.7) !important;
+    line-height: 1.46668 !important;
+    
+}
