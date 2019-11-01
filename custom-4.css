@@ -2163,7 +2163,7 @@ footer.workspace__primary_view_footer {
     background-image: none !important;
 }
 
-.p-rich_text_section {
+.p-rich_text_section, .p-rich_text_block, .p-rich_text_block div, .p-block_kit_renderer__block_wrapper, .p-block_kit_renderer__block_wrapper div, .p-block_kit_renderer__block_wrapper div div {
     font-size: 10.5pt !important;
     font-weight: 400 !important;
     color: hsla(0,0%,100%,.7) !important;
