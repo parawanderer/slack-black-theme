@@ -2178,3 +2178,38 @@ footer.workspace__primary_view_footer {
     line-height: 1.46668 !important;
     
 }
+
+
+
+.p-classic_nav__team_menu__blurb__sub {
+    color: #adadad;
+}
+
+.p-classic_nav__team_messages_progress_bar_text {
+    color: white;
+    fill: white;
+}
+
+.c-sk-modal {
+    background-color: #2c2d2f !important;
+}
+
+.c-sk-modal_header {
+    background: #2c2d2f !important;
+}
+
+.c-sk-modal_content {
+    background: #2c2d2f !important;
+}
+
+.p-select_invite_type__footer {
+    background: #2c2d2f !important;
+}
+
+.p-invite_members_form__pricing_banner {
+    color: #35a4d4;
+}
+
+.p-select_invite_type__footer {
+    color: grey;
+}
