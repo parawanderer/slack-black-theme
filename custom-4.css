@@ -2213,3 +2213,14 @@ footer.workspace__primary_view_footer {
 .p-select_invite_type__footer {
     color: grey;
 }
+
+
+
+.c-file_gallery_image_file {
+    background-color: transparent !important;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.8) !important;
+}
+
+a.c-link.p-file_image_thumbnail__wrapper {
+    background: transparent !important;
+}
