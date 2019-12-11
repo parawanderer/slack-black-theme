@@ -10,7 +10,7 @@ This builds on that idea by overruling Slack Styles to resemble https://discorda
 
 # Update 11/12/2019
 
-With slack launching their own dark theme fairly recently (and from the looks of it discontinuing use of the previously main entry point for JS injection) I'm also discontinuing my intentions for maintenance of this workaround. For those who were using this, see [Slack's article on enabling Dark mode on desktop](https://slackhq.com/dark-mode-for-slack-desktop) to enable the now pre-shipped dark mode from options.
+With slack launching their own dark theme fairly recently (and from the looks of it discontinuing use of the previously main entry point for JS injection  as of `app-4.2.0`) I'm also discontinuing my intentions for maintenance of this workaround. For those who were using this, see [Slack's article on enabling Dark mode on desktop](https://slackhq.com/dark-mode-for-slack-desktop) to enable the now pre-shipped dark mode from options.
 
 
 # Installing into Slack
